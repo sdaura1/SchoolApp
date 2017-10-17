@@ -7,59 +7,8 @@
     android:background="@android:color/white"
     tools:context="com.example.shaheed.schoolapp.MainActivity">
 
-    <ImageView
+    <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/logoImage"
-        android:padding="16dp"
-        android:layout_margin="16dp"/>
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:gravity="center">
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:background="@drawable/round"
-        android:drawableTop="@mipmap/ic_launcher"
-        android:padding="16dp"
-        android:id="@+id/contactBtn"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:background="@drawable/round"
-        android:drawableTop="@mipmap/ic_launcher"
-        android:padding="16dp"
-        android:layout_toRightOf="@id/contactBtn"
-        android:id="@+id/galleryBtn"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:background="@drawable/round"
-        android:drawableTop="@mipmap/ic_launcher"
-        android:padding="16dp"
-        android:layout_below="@id/contactBtn"
-        android:id="@+id/mediaBtn"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:padding="16dp"
-        android:background="@drawable/round"
-        android:drawableTop="@mipmap/ic_launcher"
-        android:layout_toRightOf="@id/mediaBtn"
-        android:layout_below="@id/galleryBtn"
-        android:id="@+id/writeupBtn"/>
-
-    </RelativeLayout>
+        android:id="@+id/mListView" />
 </LinearLayout>

@@ -15,28 +15,11 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="com.example.shaheed.schoolapp.MainActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".SplashScreen">
-            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ContactActivity">
-            <intent-filter>
-                <action android:name="com.example.shaheed.schoolapp.ContactActivity" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".GalleryActivity" />
-        <activity android:name=".MediaActivity" />
-        <activity android:name=".WriteupActivity"></activity>
     </application>
 
 </manifest>

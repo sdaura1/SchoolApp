@@ -1,0 +1,36 @@
+{
+  "Contacts":[
+    {
+      "id":"0",
+      "name": "Contact1",
+      "phone": "08066930554",
+      "address": "Zoo road",
+      "image":R.drawable.mbuntu1,
+      "partingWord": "Never say Good bye"
+    },
+    {
+      "id":"1",
+      "name": "Contact2",
+      "phone": "08131383526",
+      "address": "Zoo road",
+      "image":"R.drawable.mbuntu0",
+      "partingWord": "Never say Good bye"
+    },
+    {
+      "id":"2",
+      "name": "Contact3",
+      "phone": "08038527127",
+      "address": "Zoo road",
+      "image":"R.drawable.mbuntu2",
+      "partingWord": "Never say Good bye"
+    },
+    {
+      "id":"3",
+      "name": "Contact4",
+      "phone": "08038872799",
+      "address": "Zoo road",
+      "image":"R.drawable.mbuntu2",
+      "partingWord": "Never say Good bye"
+    }
+  ]
+}
