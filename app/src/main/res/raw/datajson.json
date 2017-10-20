@@ -5,7 +5,7 @@
       "name": "Contact1",
       "phone": "08066930554",
       "address": "Zoo road",
-      "image":R.drawable.mbuntu1,
+      "image":"R.drawable.mbuntu1",
       "partingWord": "Never say Good bye"
     },
     {

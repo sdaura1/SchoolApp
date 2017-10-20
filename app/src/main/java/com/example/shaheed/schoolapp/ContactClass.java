@@ -13,13 +13,13 @@ public class ContactClass {
         Name = name;
     }
 
-    public Integer getImageURL() {
-        return ImageURL;
+    public String getWords() {
+        return word;
     }
 
-    public void setImageURL(Integer imageURL) {
+    public void setWords(String words) {
 
-        ImageURL = imageURL;
+        word = words;
     }
     public void setPhoneNumber(String phoneNumber){
         PhoneNumber = phoneNumber;
@@ -29,7 +29,7 @@ public class ContactClass {
     }
 
     String Name;
-    Integer ImageURL;
+    String word;
 
     public Integer getId() {
         return id;
